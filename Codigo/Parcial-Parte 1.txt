@@ -1,0 +1,120 @@
+/*
+Parte 1: Contador de 0 a 99 con Display 7 Segmentos y Multiplexación
+Integrantes: Tomás Diaz Zampella - Matias Ariel Espinoza 
+*/
+
+#define A 12
+#define B 13
+#define C 7
+#define D 8
+#define E 9
+#define F 11
+#define G 10
+#define botonSube 5
+#define botonBaja 4
+#define botonReset 3
+int contadorIzquierdo =0;
+int contadorDerecha =0;
+
+
+void setup()
+{
+  pinMode(A,OUTPUT);
+  pinMode(B,OUTPUT);
+  pinMode(C,OUTPUT);
+  pinMode(D,OUTPUT);
+  pinMode(E,OUTPUT);
+  pinMode(F,OUTPUT);
+  pinMode(G,OUTPUT);
+  pinMode(5, INPUT_PULLUP);
+  pinMode(4, INPUT_PULLUP);
+  pinMode(3, INPUT_PULLUP);
+  pinMode(A5, OUTPUT);
+  pinMode(A4, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(digitalRead(A4));
+  
+  if(!digitalRead(botonSube)) //Cuando botonSube no sea (1) ó LOW
+    {
+      contadorIzquierdo++;
+      delay(200);//Tiempo boton presionado
+      if(contadorIzquierdo>9)
+      {
+        contadorIzquierdo=0;
+        contadorDerecha++;
+      }
+      else if(contadorDerecha>9)
+      {
+        contadorDerecha=0;
+      }
+  	}
+  if(!digitalRead(botonBaja))//Cuando botonBaja no sea (1) ó LOW
+  	{
+      contadorIzquierdo--;
+      delay(200);//Tiempo boton presionado
+      if(contadorIzquierdo<0)
+      {
+        contadorIzquierdo=9;
+        contadorDerecha--;
+      }
+      else if(contadorDerecha<0)
+      {
+        contadorDerecha=9;
+      }
+  	 }
+  if(!digitalRead(botonReset))//Cuando botonReset no sea (1) ó LOW
+  {
+  	contadorIzquierdo=0;
+    contadorDerecha=0;
+  }
+  cambiarDigito(contadorDerecha,contadorIzquierdo);//Paso los valores a cada display
+}
+
+void cambiarDigito(int primerDisplay, int segundoDisplay)//Realiza multiplexación
+{
+  displayNumero(primerDisplay);
+  prenderDisplay(0,1);
+  delay(10);
+  displayNumero(segundoDisplay);
+  prenderDisplay(1,0);
+  delay(10);
+}
+
+void displaySegmento(int segmnt_a, int segmnt_b, int segmnt_c, int segmnt_d, int segmnt_e, int segmnt_f, int segmnt_g)
+{
+  digitalWrite(A, segmnt_a);// cada segmento es HIGH ó LOW.
+  digitalWrite(B, segmnt_b);
+  digitalWrite(C, segmnt_c);
+  digitalWrite(D, segmnt_d);
+  digitalWrite(E, segmnt_e);
+  digitalWrite(F, segmnt_f);
+  digitalWrite(G, segmnt_g);
+}
+
+void displayNumero(int numero) //Envía valores a cada segmento.
+{
+  switch(numero)
+  {
+    case 0:{displaySegmento(1,1,1,1,1,1,0);break;}
+    case 1:{displaySegmento(0,1,1,0,0,0,0);break;}
+    case 2:{displaySegmento(1,1,0,1,1,0,1);break;}
+    case 3:{displaySegmento(1,1,1,1,0,0,1);break;}
+    case 4:{displaySegmento(0,1,1,0,0,1,1);break;}
+    case 5:{displaySegmento(1,0,1,1,0,1,1);break;}
+    case 6:{displaySegmento(1,0,1,1,1,1,1);break;}
+    case 7:{displaySegmento(1,1,1,0,0,0,0);break;}
+    case 8:{displaySegmento(1,1,1,1,1,1,1);break;}
+    case 9:{displaySegmento(1,1,1,1,0,1,1);}break;
+  }
+}
+
+
+void prenderDisplay(int display1, int display2)//Función que prende o apaga el display
+{
+  digitalWrite(A5, display1);
+  digitalWrite(A4, display2);
+}

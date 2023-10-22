@@ -1,0 +1,193 @@
+/*
+Parte 2: Modificación con Interruptor Deslizante y Números Primos.
+Integrantes: Tomás Diaz Zampella - Matias Ariel Espinoza 
+*/
+
+#define A 12
+#define B 13
+#define C 7
+#define D 8
+#define E 9
+#define F 11
+#define G 10
+#define interruptor 2
+#define sensor A0
+
+int contadorIzquierdo =0;
+int contadorDerecha =0;
+int contadorNumeros=0;
+int estadoInterruptorAhora = 1;
+int estadoInterruptorAnterior = 1;
+int temperatura;
+void setup()
+{
+  pinMode(A,OUTPUT);
+  pinMode(B,OUTPUT);
+  pinMode(C,OUTPUT);
+  pinMode(D,OUTPUT);
+  pinMode(E,OUTPUT);
+  pinMode(F,OUTPUT);
+  pinMode(G,OUTPUT);
+  pinMode(5, INPUT);
+  pinMode(A5, OUTPUT);
+  pinMode(A4, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  if (temperatura < 60)
+  {
+  temperatura = TemperaturaActual();
+  Serial.println(temperatura);
+  estadoInterruptorAhora = digitalRead(interruptor);
+
+  if (estadoInterruptorAhora == 0)//Interruptor hacia la derecha
+  {
+    if (estadoInterruptorAnterior == 1)
+    {
+      contadorNumeros = 0;
+      estadoInterruptorAnterior = 0;
+      contadorDerecha = 0;
+      contadorIzquierdo = 0;
+    }
+
+    contadorDerecha++;
+    delay(200);
+    
+    if(contadorDerecha>9)
+    {
+      contadorDerecha = 0;
+      contadorIzquierdo++;
+    }
+    else if(contadorIzquierdo>9)
+    {
+      contadorIzquierdo=0;
+    }
+
+    if(contadorNumeros > 99)
+    {
+      contadorNumeros = 0;
+    }
+    
+    cambiarDigito(contadorIzquierdo, contadorDerecha);
+  }
+  
+  if (estadoInterruptorAhora == 1)//Interruptor hacia la izquierda
+  {
+    if (estadoInterruptorAnterior == 0)
+    {
+      contadorNumeros = 0;
+      estadoInterruptorAnterior = 1;
+      contadorDerecha=0;
+      contadorIzquierdo=0;
+    }
+    
+    contadorNumeros++;
+    contadorDerecha++;
+    delay(200);
+    
+    if(contadorDerecha>9)
+    {
+      contadorDerecha = 0;
+      contadorIzquierdo++;
+    }
+    else if(contadorIzquierdo>9)
+    {
+      contadorIzquierdo=0;
+    }
+        if(contadorNumeros > 99)
+    {
+      contadorNumeros = 0;
+    } 
+    
+    if (esPrimo(contadorNumeros))
+    {
+      cambiarDigito(contadorIzquierdo, contadorDerecha);
+    }
+  }
+ }
+}
+
+
+void cambiarDigito(int primerDisplay, int segundoDisplay)//Realiza multiplexación
+{
+  displayNumero(primerDisplay);
+  prenderDisplay(0,1);
+  delay(10);
+  displayNumero(segundoDisplay);
+  prenderDisplay(1,0);
+  delay(10);
+}
+
+void displaySegmento(int segmnt_a, int segmnt_b, int segmnt_c, int segmnt_d, int segmnt_e, int segmnt_f, int segmnt_g)
+{
+  digitalWrite(A, segmnt_a);//segmnt_a = HIGH ó LOW
+  digitalWrite(B, segmnt_b);
+  digitalWrite(C, segmnt_c);
+  digitalWrite(D, segmnt_d);
+  digitalWrite(E, segmnt_e);
+  digitalWrite(F, segmnt_f);
+  digitalWrite(G, segmnt_g);
+}
+
+void displayNumero(int numero) //Envía valores a cada segmento.
+{
+  switch(numero)
+  {
+    case 0:{displaySegmento(1,1,1,1,1,1,0);break;}
+    case 1:{displaySegmento(0,1,1,0,0,0,0);break;}
+    case 2:{displaySegmento(1,1,0,1,1,0,1);break;}
+    case 3:{displaySegmento(1,1,1,1,0,0,1);break;}
+    case 4:{displaySegmento(0,1,1,0,0,1,1);break;}
+    case 5:{displaySegmento(1,0,1,1,0,1,1);break;}
+    case 6:{displaySegmento(1,0,1,1,1,1,1);break;}
+    case 7:{displaySegmento(1,1,1,0,0,0,0);break;}
+    case 8:{displaySegmento(1,1,1,1,1,1,1);break;}
+    case 9:{displaySegmento(1,1,1,1,0,1,1);}break;
+  }
+}
+
+void prenderDisplay(int display1, int display2)//Función que prende o apaga el display
+{
+  if (temperatura < 60 )
+  {
+    digitalWrite(A5, display1);
+    digitalWrite(A4, display2);
+  }
+  else
+  {
+    digitalWrite(A5, 1); 
+    digitalWrite(A4, 1);
+  }
+}
+
+
+bool esPrimo(int numero) // Función para verificar si es un número primo.
+{
+  if (numero <= 1)
+  {
+    return false;
+  }
+  if (numero <= 3)
+  {
+    return true;
+  }
+
+  for (int i = 2; i < numero; i++)
+  {
+    if (numero % i == 0) 
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+int TemperaturaActual()//función que retorna temperatura.
+{
+  int lecturaCuenta = analogRead (sensor);
+  temperatura = map(lecturaCuenta,20,358,-40,125);
+  return temperatura;
+}
