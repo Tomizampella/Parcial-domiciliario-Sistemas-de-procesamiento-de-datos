@@ -40,8 +40,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png](https://i.postimg.cc/nLdyxnc4/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png)](https://postimg.cc/XZCHcS5q)
 - Un "motor de aficionado" es un tipo de motor que no está diseñado para moverse o propulsar un vehículo, sino que se utiliza principalmente para hacer funcionar máquinas estacionarias, como generadores o bombas. Tiene un polo negativo y otro positivo, cuando se conectan a dos pines como salida envian energía negativa.
 - En este proyecto, cuando el interrumptor está en LOW, el motor gira en sentido hacia adelante y gira en sentido contrario cuando el interrumptor está en HIGH.
-  El movimiento del motor se produce cuando a un polo se le asigna LOW y al otro HIGH. Por lo tanto, la diferencia de potencial es lo que determina la dirección del movimiento del     
-  motor. 
+  El movimiento del motor se produce cuando a un polo se le asigna LOW y al otro HIGH. Por lo tanto, la diferencia de potencial es lo que determina la dirección del movimiento del  motor. 
 
 ## 📎 Links al proyecto
 - [PARTE 1](https://www.tinkercad.com/things/3eQHxpzXkG3-1-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=ypSkFAlVxz8CCWkG6LcxyhHqFCc8SA8E3nBFIqH_juo)
