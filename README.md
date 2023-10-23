@@ -37,11 +37,9 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 
 ## :robot: Links al proyecto
 - [PARTE 1](https://www.tinkercad.com/things/3eQHxpzXkG3-1-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=ypSkFAlVxz8CCWkG6LcxyhHqFCc8SA8E3nBFIqH_juo)
-- [PARTE 2]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/idQBzp1n4vG-2-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=g2ZjkiPr0eq47HCZ0P13pLaRjIu89JchjH5iNrXDOg0))
-- [PARTE 2 - MOTOR AFICIONADO]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY))
-- [PARTE 3]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ))
-## :tv: Link al video del proceso
-- [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
+- [PARTE 2]([https://www.tinkercad.com/things/idQBzp1n4vG-2-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=g2ZjkiPr0eq47HCZ0P13pLaRjIu89JchjH5iNrXDOg0)
+- [PARTE 2 - MOTOR AFICIONADO](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY)
+- [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
 
 ---
 ### Fuentes
