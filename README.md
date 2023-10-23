@@ -47,6 +47,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 - [PARTE 2](https://www.tinkercad.com/things/idQBzp1n4vG-2-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=g2ZjkiPr0eq47HCZ0P13pLaRjIu89JchjH5iNrXDOg0)
 - [PARTE 2 - MOTOR AFICIONADO](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY)
 - [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
+- [PARTE 4](https://www.tinkercad.com/things/ddQNahbGTp9-copy-of-3-parcial-domiciliario-tomas-diaz-zampella/editel?sharecode=-yH4xd6f3XtOnJaJIK5k0M2vfY9o6u7CEsPekTzTUdo)
 
 ## 📚 Fuentes
 - [DOCUMENTACION DE GITHUB](https://docs.github.com/es/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
