@@ -2,21 +2,21 @@
 [![Arduino-Tinkercad-portada.jpg](https://i.postimg.cc/Y0BGdzHs/Arduino-Tinkercad-portada.jpg)](https://postimg.cc/wyFjvJ3X)
 
 
-## Integrantes 
+## :pushpin: Integrantes 
 - Tomás Diaz Zampella
 - Matias Ariel Espinoza 
 
 
-## Proyecto: Contador de 0 a 99 con Display 7 Segmentos.
+## :satellite: Proyecto: Contador de 0 a 99 con Display 7 Segmentos.
 [![3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png](https://i.postimg.cc/mZ977tsn/3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png)](https://postimg.cc/3WKyTrWj)
 
 
-## Descripción
+## :black_nib: Descripción
 El proyecto tiene como objetivo principal controlar dos displays de siete segmentos y mostrar los dígitos en cada display mediante multiplexación.
 Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
 Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
 
-## Función principal
+## :computer: Función principal
 Esta función se encarga de encender y apagar los displays.
 
 Recibe por parámetros el valor que se tiene que mostrar en el primer y segundo display,
