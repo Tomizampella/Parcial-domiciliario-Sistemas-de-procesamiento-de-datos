@@ -12,14 +12,16 @@
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+El proyecto tiene como objetivo principal controlar dos displays de siete segmentos y mostrar los dígitos en cada display mediante multiplexación.
+Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
+Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
 
 ## Función principal
 Esta función se encarga de encender y apagar los displays.
 
 Recibe por parámetros el valor que se tiene que mostrar en el primer y segundo display,
-el valor que recibe está en el rango de 0-9. Se prenden los segmentos para formar el valor recibido,
-se prende el primer display por 10 milisegundos y se para apaga para prender el segundo display.
+el valor que recibe está en el rango de 0-9. Envía los valores a cada segmento para formar el valor recibido,
+se prende el primer display por 10 milisegundos y se apaga para prender el segundo display.
 Esto último se conoce como multiplexación.
 
 
@@ -41,18 +43,6 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 - [PARTE 2 - MOTOR AFICIONADO](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY)
 - [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
 
----
-### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
 
-- [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-- [Tutorial](https://www.youtube.com/watch?v=oxaH9CFpeEE).
-
-- [Emojis](https://gist.github.com/rxaviers/7360908).
-
----
 
 
