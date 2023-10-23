@@ -19,10 +19,10 @@ Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays
 ## 💻 Función principal
 Esta función se encarga de encender y apagar los displays.
 
-Recibe por parámetros el valor que se tiene que mostrar en el primer y segundo display,
-el valor que recibe está en el rango de 0-9. Envía los valores a cada segmento para formar el valor recibido,
-se prende el primer display por 10 milisegundos y se apaga para prender el segundo display.
-Esto último se conoce como multiplexación.
+Recibe por parámetro los valores que se tienen que mostrar en el primer y segundo display,
+los mismos, están en el rango de 0-9. Envía los valores a cada segmento para formar el número recibido,
+se prende el primer display por 10 milisegundos y se apaga para prender el segundo display por la misma 
+cantidad de milisegundos. Esto último se conoce como multiplexación.
 
 
 ~~~ C (lenguaje en el que esta escrito)
