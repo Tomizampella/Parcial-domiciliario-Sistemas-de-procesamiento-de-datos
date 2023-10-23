@@ -42,7 +42,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 - [PARTE 3]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ))
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
-
+https://www.youtube.com/watch?v=VyGjE8kx-O0
 ---
 ### Fuentes
 - [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
