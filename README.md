@@ -44,8 +44,8 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 - [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
 
 ## 📚 Fuentes
--[DOCUMENTACION DE GITHUB](https://docs.github.com/es/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--[DOCUMENTACION DE C++](https://www2.eii.uva.es/fund_inf/cpp/temas/1_introduccion/introduccion.html)
+- [DOCUMENTACION DE GITHUB](https://docs.github.com/es/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [DOCUMENTACION DE C++](https://www2.eii.uva.es/fund_inf/cpp/temas/1_introduccion/introduccion.html)
 
 
 
