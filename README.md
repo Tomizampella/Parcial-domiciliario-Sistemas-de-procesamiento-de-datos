@@ -2,12 +2,13 @@
 [![Arduino-Tinkercad-portada.jpg](https://i.postimg.cc/Y0BGdzHs/Arduino-Tinkercad-portada.jpg)](https://postimg.cc/wyFjvJ3X)
 
 
---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 📌 Integrantes 
 - Tomás Diaz Zampella
 
-##
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 📡 Proyecto | PARTE 1 | Contador de 0 a 99 con Display 7 Segmentos y multiplexación.
 [![1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/L54CSHtM/1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/bDMHHfV6)
 
@@ -39,8 +40,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 }
 ~~~
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/yW4Tds9d/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/q6wKDf1V)
@@ -51,8 +51,7 @@ Tomando como base el proyecto de la parte 1, se cambian los tres botones por un 
 Cuando el interruptor se encuentra la derecha (HIGH), se muestran por display del 0 al 99. Si el interruptor es deslizado hacia la izquiera (LOW), se muestran por display del 0 al 99 solo números primos.
 Se agrega un sensor de temperatura. Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📡 Proyecto | PARTE 2 | Componente electrónico adicional: Motor de aficionado.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png](https://i.postimg.cc/nLdyxnc4/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png)](https://postimg.cc/XZCHcS5q)
@@ -71,8 +70,7 @@ El sentido de giro del motor se determina al asignar LOW a uno de los polos y HI
 ## ✒️ Descripción
 Se agrega una fotorresistencia. Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📡 Proyecto | PARTE 4 | Modificación con fotoresistencia.
 [![4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/Z51yzV8b/4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/Wdw4MmYC)
@@ -82,7 +80,7 @@ Se agrega una fotorresistencia. Si el valor obtenido de la fotoresistencia exced
 Sobre lo construido en el proyecto 3, se modifica solo lo que se muestra por display cuando le interruptor se encuentra hacia la izquierda.
 En este caso, en lugar  de números primos se mostraran los números del 0 al 99 en notación hexadecimal.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📎 Links al proyecto
 - [PARTE 1](https://www.tinkercad.com/things/3eQHxpzXkG3-1-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=ypSkFAlVxz8CCWkG6LcxyhHqFCc8SA8E3nBFIqH_juo)
