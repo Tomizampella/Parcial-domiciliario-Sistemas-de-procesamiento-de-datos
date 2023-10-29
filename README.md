@@ -3,7 +3,7 @@
 
 
 
-
+##
 ## 📌 Integrantes 
 - Tomás Diaz Zampella
 
@@ -80,7 +80,7 @@ Se agrega una fotorresistencia. Si el valor obtenido de la fotoresistencia exced
 
 ## ✒️ Descripción
 Sobre lo construido en el proyecto 3, se modifica solo lo que se muestra por display cuando le interruptor se encuentra hacia la izquierda.
-En este caso, se en lugar  de números primos se mostraran los números del 0 al 99 en notación hexadecimal.
+En este caso, en lugar  de números primos se mostraran los números del 0 al 99 en notación hexadecimal.
 
 
 
