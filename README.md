@@ -2,12 +2,16 @@
 [![Arduino-Tinkercad-portada.jpg](https://i.postimg.cc/Y0BGdzHs/Arduino-Tinkercad-portada.jpg)](https://postimg.cc/wyFjvJ3X)
 
 
+
+
 ## 📌 Integrantes 
 - Tomás Diaz Zampella
 
 
 ## 📡 Proyecto | PARTE 1 | Contador de 0 a 99 con Display 7 Segmentos y multiplexación.
 [![1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/L54CSHtM/1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/bDMHHfV6)
+
+
 
 ## ✒️ Descripción
 El proyecto tiene como objetivo principal controlar dos displays de siete segmentos y mostrar los dígitos en cada display mediante multiplexación.
@@ -36,16 +40,23 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 ~~~
 
 
+
+
 ## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/yW4Tds9d/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/q6wKDf1V)
+
 
 ## ✒️ Descripción
 Tomando como base el proyecto de la parte 1, se cambian los tres botones por un interruptor deslizante.
 Cuando el interruptor se encuentra la derecha (HIGH), se muestran por display del 0 al 99. Si el interruptor es deslizado hacia la izquiera (LOW), se muestran por display del 0 al 99 solo números primos.
+Se agrega un sensor de temperatura. Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
+
+
 
 
 ## 📡 Proyecto | PARTE 2 | Componente electrónico adicional: Motor de aficionado.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png](https://i.postimg.cc/nLdyxnc4/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png)](https://postimg.cc/XZCHcS5q)
+
 
 ## ✒️ Descripción
 Un "motor de aficionado" es un tipo de motor que no está diseñado para moverse o propulsar un vehículo, sino que se utiliza principalmente para hacer funcionar máquinas estacionarias, como generadores o bombas. Tiene un polo negativo y otro positivo, cuando se conectan a dos pines como salida envian energía negativa.
@@ -53,20 +64,24 @@ En este proyecto, cuando el interrumptor está en LOW, el motor gira en sentido 
 El sentido de giro del motor se determina al asignar LOW a uno de los polos y HIGH al otro. En resumen, la dirección del movimiento del motor depende de la diferencia de potencial eléctrico entre sus dos conexiones.
 
 
-## 📡 Proyecto | PARTE 3 | Modificación con fotoresistencia.
+## 📡 Proyecto | PARTE 3 | Modificación con fotorresistencia.
 [![3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png](https://i.postimg.cc/mZ977tsn/3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png)](https://postimg.cc/3WKyTrWj)
 
+
 ## ✒️ Descripción
-Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
-Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
+Se agrega una fotorresistencia. Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
+
+
 
 
 ## 📡 Proyecto | PARTE 4 | Modificación con fotoresistencia.
 [![4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/Z51yzV8b/4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/Wdw4MmYC)
 
+
 ## ✒️ Descripción
 Sobre lo construido en el proyecto 3, se modifica solo lo que se muestra por display cuando le interruptor se encuentra hacia la izquierda.
 En este caso, se en lugar  de números primos se mostraran los números del 0 al 99 en notación hexadecimal.
+
 
 
 ## 📎 Links al proyecto
@@ -75,6 +90,7 @@ En este caso, se en lugar  de números primos se mostraran los números del 0 al
 - [PARTE 2 - MOTOR AFICIONADO](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY)
 - [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
 - [PARTE 4](https://www.tinkercad.com/things/ddQNahbGTp9-copy-of-3-parcial-domiciliario-tomas-diaz-zampella/editel?sharecode=-yH4xd6f3XtOnJaJIK5k0M2vfY9o6u7CEsPekTzTUdo)
+
 
 
 ## 📚 Fuentes
