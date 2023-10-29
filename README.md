@@ -2,12 +2,12 @@
 [![Arduino-Tinkercad-portada.jpg](https://i.postimg.cc/Y0BGdzHs/Arduino-Tinkercad-portada.jpg)](https://postimg.cc/wyFjvJ3X)
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-##
 ## 📌 Integrantes 
 - Tomás Diaz Zampella
 
-
+##
 ## 📡 Proyecto | PARTE 1 | Contador de 0 a 99 con Display 7 Segmentos y multiplexación.
 [![1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/L54CSHtM/1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/bDMHHfV6)
 
