@@ -49,7 +49,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 
 ## ✒️ Descripción
  - Tomando como base el proyecto de la parte 1, se cambian los tres botones por un interruptor deslizante.
- - Cuando el interruptor se encuentra la derecha (HIGH), se muestran por display del 0 al 99. Si el interruptor es deslizado hacia la izquiera (LOW), se muestran por display del 0 al 99 solo números primos.
+ - Cuando el interruptor se encuentra la derecha (HIGH), se muestran por display del 0 al 99. Si el interruptor es deslizado hacia la izquierda (LOW), se muestran por display del 0 al 99 solo números primos.
  - Se agrega un sensor de temperatura. Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
 
 
