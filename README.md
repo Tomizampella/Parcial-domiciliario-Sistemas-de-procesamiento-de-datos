@@ -42,7 +42,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números.
+## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números primos.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/yW4Tds9d/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/q6wKDf1V)
 
 
@@ -72,7 +72,7 @@ Se agrega una fotorresistencia. Si el valor obtenido de la fotoresistencia exced
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📡 Proyecto | PARTE 4 | Modificación con fotoresistencia.
+## 📡 Proyecto | PARTE 4 | Modificación con números hexadecimales.
 [![4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/Z51yzV8b/4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/Wdw4MmYC)
 
 
