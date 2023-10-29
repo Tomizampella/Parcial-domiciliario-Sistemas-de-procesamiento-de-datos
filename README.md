@@ -43,7 +43,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números primos.
+## 📡 Proyecto | PARTE 2 | A | Modificación con Interruptor Deslizante y Números primos.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/yW4Tds9d/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/q6wKDf1V)
 
 
@@ -55,7 +55,7 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📡 Proyecto | PARTE 2 | Componente electrónico adicional: Motor de aficionado.
+## 📡 Proyecto | PARTE 2 | B | Componente electrónico adicional: Motor de aficionado.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png](https://i.postimg.cc/nLdyxnc4/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png)](https://postimg.cc/XZCHcS5q)
 
 
