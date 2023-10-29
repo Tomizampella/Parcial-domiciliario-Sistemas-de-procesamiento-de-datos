@@ -7,7 +7,6 @@
 
 
 ## 📡 Proyecto | PARTE 1 | Contador de 0 a 99 con Display 7 Segmentos y multiplexación.
-
 [![1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/L54CSHtM/1-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/bDMHHfV6)
 
 ## ✒️ Descripción
@@ -35,10 +34,10 @@ void cambiarDigito(int primerDisplay, int segundoDisplay)
   delay(10);
 }
 ~~~
+
+
 ## 📡 Proyecto | PARTE 2 |  Modificación con Interruptor Deslizante y Números.
-
-[![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Motor-aficionado.png](https://i.postimg.cc/kghBFw1N/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Motor-aficionado.png)](https://postimg.cc/sM7j3PR1)
-
+[![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/yW4Tds9d/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/q6wKDf1V)
 
 ## ✒️ Descripción
 Tomando como base el proyecto de la parte 1, se cambian los tres botones por un interruptor deslizante.
@@ -47,17 +46,27 @@ Cuando el interruptor se encuentra la derecha (HIGH), se muestran por display de
 
 ## 📡 Proyecto | PARTE 2 | Componente electrónico adicional: Motor de aficionado.
 [![2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png](https://i.postimg.cc/nLdyxnc4/2-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza-Motor-aficionado.png)](https://postimg.cc/XZCHcS5q)
-- Un "motor de aficionado" es un tipo de motor que no está diseñado para moverse o propulsar un vehículo, sino que se utiliza principalmente para hacer funcionar máquinas estacionarias, como generadores o bombas. Tiene un polo negativo y otro positivo, cuando se conectan a dos pines como salida envian energía negativa.
-- En este proyecto, cuando el interrumptor está en LOW, el motor gira en sentido hacia adelante y gira en sentido contrario cuando el interrumptor está en HIGH.
-  El sentido de giro del motor se determina al asignar LOW a uno de los polos y HIGH al otro. En resumen, la dirección del movimiento del motor depende de la diferencia de potencial eléctrico entre sus dos conexiones.
 
-  ## 📡 Proyecto | PARTE 3 | Modificación con fotoresistencia.
+## ✒️ Descripción
+Un "motor de aficionado" es un tipo de motor que no está diseñado para moverse o propulsar un vehículo, sino que se utiliza principalmente para hacer funcionar máquinas estacionarias, como generadores o bombas. Tiene un polo negativo y otro positivo, cuando se conectan a dos pines como salida envian energía negativa.
+En este proyecto, cuando el interrumptor está en LOW, el motor gira en sentido hacia adelante y gira en sentido contrario cuando el interrumptor está en HIGH.
+El sentido de giro del motor se determina al asignar LOW a uno de los polos y HIGH al otro. En resumen, la dirección del movimiento del motor depende de la diferencia de potencial eléctrico entre sus dos conexiones.
+
+
+## 📡 Proyecto | PARTE 3 | Modificación con fotoresistencia.
 [![3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png](https://i.postimg.cc/mZ977tsn/3-Parcial-Domiciliario-Tom-s-Diaz-Zampella-Matias-Ariel-Espinoza.png)](https://postimg.cc/3WKyTrWj)
-
 
 ## ✒️ Descripción
 Si la temperatura exdece los 60°, está programado para que el sistema deje de funcionar.
 Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays se apagan. En este caso, el sistema sigue funcionando.
+
+
+## 📡 Proyecto | PARTE 4 | Modificación con fotoresistencia.
+[![4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png](https://i.postimg.cc/Z51yzV8b/4-Parcial-Domiciliario-Tom-s-Diaz-Zampella.png)](https://postimg.cc/Wdw4MmYC)
+
+## ✒️ Descripción
+Sobre lo construido en el proyecto 3, se modifica solo lo que se muestra por display cuando le interruptor se encuentra hacia la izquierda.
+En este caso, se en lugar  de números primos se mostraran los números del 0 al 99 en notación hexadecimal.
 
 
 ## 📎 Links al proyecto
@@ -66,6 +75,7 @@ Si el valor obtenido de la fotoresistencia excede las 200 unidades, los displays
 - [PARTE 2 - MOTOR AFICIONADO](https://www.tinkercad.com/things/gtn53DXg2BA-motor-aficionado-2-parcial-domiciliario-matias-ariel-espinoza/editel?sharecode=VCqBtgo1uCyS3OyJ7Qv2V1KCP6h1yZ9XqhlZ7octDWY)
 - [PARTE 3](https://www.tinkercad.com/things/3CbquSdnm1W-3-parcial-domiciliario-tomas-diaz-zampella-matias-ariel-espinoza/editel?sharecode=iCiOI8Y6yOOQxm8MKAIgOLWcLuSvbvYoXor7xEbxtDQ)
 - [PARTE 4](https://www.tinkercad.com/things/ddQNahbGTp9-copy-of-3-parcial-domiciliario-tomas-diaz-zampella/editel?sharecode=-yH4xd6f3XtOnJaJIK5k0M2vfY9o6u7CEsPekTzTUdo)
+
 
 ## 📚 Fuentes
 - [DOCUMENTACION DE GITHUB](https://docs.github.com/es/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
